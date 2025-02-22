@@ -2,16 +2,12 @@ header{
     background-color: #bbbbbb;
     padding: 20px 0;
 }
-
-.caja{
+.box{
     width: 940px;
     position: relative;
     margin: 0 auto;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-}
 
 h1{
     color: red;
@@ -21,6 +17,66 @@ h2{
     color: #26428b;
 }
 
-.table{
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+li:nth-child(2){
+    color: #088c19;
+}
+
+li:last-child{
+    font-weight: bold;
+}
+
+ul .music{
+    color: #738273;
+    font-weight: normal !important;
+    margin-bottom: 0 !important;
+}
+
+a:hover{
+    background-color: rgb(0, 255, 242);
+}
+
+a:visited{
+    background-color: #374874;
+    color: #f277c6;
+}
+
+.box2{
+    color: #f277c6;
+    background-color: #374874;
+    border: 1px solid #f277c6;
+    border-radius: 5px;
+    margin: 2px;
+    padding-left: 5px;
+    display: inline-block;
+    width: 32%;
+}
+
+table{
+    justify-self: center;
+    font-size: 25px;
+}
+
+th, td {
+    padding: 8px 10px;
+}
+
+table thead{
+    background-color: #31bb86;
+    text-align: center;
+}
+
+table tbody td:first-child {
+    background-color: #31bb86;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: rgb(217, 237, 255);
 }
