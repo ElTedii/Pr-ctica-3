@@ -1,5 +1,24 @@
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: #26428b;
 }
 
 .table{
